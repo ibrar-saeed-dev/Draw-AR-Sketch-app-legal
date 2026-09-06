@@ -1,170 +1,417 @@
- Terms and Conditions of Use
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Terms and Conditions · Draw AR Sketch</title>
+  <style>
+    /* ── Reset & base ── */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #fafafa;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      color: #1e1e1e;
+      padding: 2rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .legal-container {
+      max-width: 880px;
+      width: 100%;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+      padding: 2.5rem 2rem;
+    }
+
+    /* ── Typography ── */
+    h1, h2, h3, h4 {
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      line-height: 1.3;
+      margin-top: 1.8rem;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      color: #0b0b0b;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #eaeef2;
+      padding-bottom: 0.4rem;
+      margin-top: 2.4rem;
+      color: #0b0b0b;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.4rem;
+      color: #1f2a3a;
+    }
+
+    /* first <h1> + last-updated */
+    .subhead {
+      font-size: 0.95rem;
+      color: #4a5a6e;
+      margin-top: 0.15rem;
+      margin-bottom: 1.8rem;
+      border-left: 4px solid #d0d9e5;
+      padding-left: 1rem;
+      background: #f6f9fc;
+      border-radius: 0 8px 8px 0;
+      padding: 0.6rem 1rem;
+    }
+
+    p {
+      margin: 0 0 1rem 0;
+    }
+
+    /* inline strong / bold */
+    strong, b {
+      font-weight: 600;
+      color: #0b1c2e;
+    }
+
+    /* lists inside sections */
+    ul, ol {
+      margin: 0.5rem 0 1.2rem 1.8rem;
+      padding-left: 0.2rem;
+    }
+
+    li {
+      margin-bottom: 0.4rem;
+    }
+
+    /* numbered sections like 1.1, 1.2 … displayed as <p> */
+    .section-item {
+      margin-bottom: 0.7rem;
+      padding-left: 0.2rem;
+    }
+
+    .section-item strong {
+      display: inline-block;
+      min-width: 2.4rem;
+    }
+
+    /* special callout boxes for important warnings */
+    .callout-warning {
+      background: #fef7e7;
+      border-left: 6px solid #e6a017;
+      padding: 1rem 1.3rem;
+      border-radius: 10px;
+      margin: 1.5rem 0 1.8rem 0;
+      font-weight: 500;
+    }
+
+    .callout-warning p {
+      margin-bottom: 0.25rem;
+    }
+
+    .callout-warning strong {
+      color: #a86800;
+    }
+
+    /* contact block at bottom */
+    .contact-block {
+      background: #f2f6fb;
+      padding: 1.2rem 1.5rem;
+      border-radius: 16px;
+      margin: 2rem 0 1rem 0;
+    }
+
+    .contact-block p {
+      margin: 0.2rem 0;
+    }
+
+    /* final signature */
+    .signature {
+      margin-top: 2.2rem;
+      font-style: italic;
+      color: #2e3b4e;
+      background: #f8faff;
+      padding: 1.2rem 1.5rem;
+      border-radius: 40px 12px 12px 40px;
+      border-left: 6px solid #7b8ba0;
+    }
+
+    /* small screens */
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem 0.8rem;
+      }
+
+      .legal-container {
+        padding: 1.5rem 1.2rem;
+        border-radius: 16px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
+
+      .callout-warning {
+        padding: 0.9rem 1rem;
+      }
+
+      .subhead {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+      }
+
+      .contact-block {
+        padding: 1rem 1.2rem;
+      }
+
+      ul, ol {
+        margin-left: 1.2rem;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .legal-container {
+        padding: 1rem 0.9rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+
+    /* print-friendly */
+    @media print {
+      body {
+        background: #fff;
+        padding: 0.3in;
+      }
+      .legal-container {
+        box-shadow: none;
+        padding: 0;
+      }
+      .callout-warning {
+        background: #f4f1e1;
+        border-left-color: #b8860b;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="legal-container">
 
-Last updated: [Insert Date]
+  <!-- TITLE -->
+  <h1>Terms and Conditions of Use</h1>
+  <div class="subhead">
+    <strong>Last updated: [Insert Date]</strong>
+  </div>
+
+  <!-- IMPORTANT WARNING – SECTION 6 -->
+  <div class="callout-warning">
+    <p><strong>THIS APP INCLUDES SUBSCRIPTIONS THAT AUTOMATICALLY RENEW. PLEASE READ SECTION 6 ("SUBSCRIPTIONS AND PAYMENTS") CAREFULLY BEFORE STARTING A FREE TRIAL OR MAKING A PURCHASE.</strong></p>
+    <p><strong>TO AVOID BEING CHARGED, CANCEL YOUR TRIAL OR SUBSCRIPTION AT LEAST 24 HOURS BEFORE THE END OF THE CURRENT PERIOD, THROUGH YOUR GOOGLE PLAY OR APPLE ACCOUNT SETTINGS.</strong></p>
+  </div>
 
-THIS APP INCLUDES SUBSCRIPTIONS THAT AUTOMATICALLY RENEW. PLEASE READ SECTION 6 ("SUBSCRIPTIONS AND PAYMENTS") CAREFULLY BEFORE STARTING A FREE TRIAL OR MAKING A PURCHASE.
+  <!-- ========================================= -->
+  <!-- 1. Acceptance of Terms                    -->
+  <!-- ========================================= -->
+  <h2>1. Acceptance of Terms</h2>
 
-TO AVOID BEING CHARGED, CANCEL YOUR TRIAL OR SUBSCRIPTION AT LEAST 24 HOURS BEFORE THE END OF THE CURRENT PERIOD, THROUGH YOUR GOOGLE PLAY OR APPLE ACCOUNT SETTINGS.
+  <p><strong>1.1</strong> These Terms and Conditions of Use ("Terms") govern your access to and use of [App Name] (the "App"), including its drawing templates, AR tracing tools, lessons, and related features (collectively, the "Service"). The Service is provided by [Your Name / Company Name] ("we," "us," or "the Developer").</p>
 
+  <p><strong>1.2</strong> By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.</p>
 
+  <p><strong>1.3</strong> Please also review our Privacy Policy, which explains what information the App accesses and how it is handled. The Privacy Policy is incorporated into these Terms by reference.</p>
 
- 1. Acceptance of Terms
+  <p><strong>1.4</strong> We may update these Terms from time to time. Continued use of the App after an update constitutes your acceptance of the revised Terms.</p>
+
+  <!-- ========================================= -->
+  <!-- 2. Description of the Service             -->
+  <!-- ========================================= -->
+  <h2>2. Description of the Service</h2>
+
+  <p><strong>2.1</strong> The App allows users to trace images using their device's camera as a visual guide ("AR Tracing"), browse a library of drawing templates and step-by-step lessons organized by category, difficulty, and color type, import their own photos to convert into traceable line art, and save or export finished drawings to their device.</p>
 
-1.1 These Terms and Conditions of Use ("Terms") govern your access to and use of [App Name] (the "App"), including its drawing templates, AR tracing tools, lessons, and related features (collectively, the "Service"). The Service is provided by [Your Name / Company Name] ("we," "us," or "the Developer").
+  <p><strong>2.2</strong> No account, sign-up, or login is required to use the App. All personal creative content — including saved drawings and imported photos — is stored locally on your device only. We do not collect, transmit, or store your personal drawings or imported images on any server.</p>
 
-1.2 By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree, do not use the App.
+  <p><strong>2.3</strong> The App's template and lesson library (images, categories, and related artwork) is hosted remotely and downloaded to your device as you use the App. An internet connection is required the first time you use the App and periodically thereafter to access new or updated content. Previously viewed templates and lessons remain available offline.</p>
 
-1.3 Please also review our Privacy Policy, which explains what information the App accesses and how it is handled. The Privacy Policy is incorporated into these Terms by reference.
+  <p><strong>2.4</strong> Some templates and lessons are available free of charge; others require an active subscription ("PRO" or "Premium" content) as described in Section 6.</p>
 
-1.4 We may update these Terms from time to time. Continued use of the App after an update constitutes your acceptance of the revised Terms.
+  <!-- ========================================= -->
+  <!-- 3. Important Disclaimers                  -->
+  <!-- ========================================= -->
+  <h2>3. Important Disclaimers</h2>
 
+  <p><strong>3.1</strong> WE DO NOT GUARANTEE THAT THE SERVICE WILL BE UNINTERRUPTED, ERROR-FREE, OR AVAILABLE AT ALL TIMES, OR THAT ANY TEMPLATE, LESSON, OR FEATURE WILL MEET YOUR EXPECTATIONS.</p>
 
+  <p><strong>3.2</strong> THE APP IS PROVIDED FOR CREATIVE, EDUCATIONAL, AND ENTERTAINMENT PURPOSES ONLY. IT IS NOT A SUBSTITUTE FOR FORMAL ART INSTRUCTION, AND WE MAKE NO REPRESENTATIONS ABOUT SKILL OUTCOMES FROM USING IT.</p>
 
- 2. Description of the Service
+  <p><strong>3.3</strong> Some template and lesson artwork in the App may be generated using artificial intelligence tools. While we take reasonable steps to review content before publishing it, we do not guarantee that all such content is free of errors, inconsistencies, or unintended similarities to existing works.</p>
 
-2.1 The App allows users to trace images using their device's camera as a visual guide ("AR Tracing"), browse a library of drawing templates and stepbystep lessons organized by category, difficulty, and color type, import their own photos to convert into traceable line art, and save or export finished drawings to their device.
+  <!-- ========================================= -->
+  <!-- 4. Camera and Device Permissions          -->
+  <!-- ========================================= -->
+  <h2>4. Camera and Device Permissions</h2>
 
-2.2 No account, signup, or login is required to use the App. All personal creative content — including saved drawings and imported photos — is stored locally on your device only. We do not collect, transmit, or store your personal drawings or imported images on any server.
+  <p><strong>4.1</strong> The AR Tracing feature requires access to your device's camera to display a live camera feed with an overlaid image. Camera access is used solely to provide this feature in real time and is not recorded, transmitted, or stored by us unless you explicitly choose to save or export an image using the App's save feature.</p>
 
-2.3 The App's template and lesson library (images, categories, and related artwork) is hosted remotely and downloaded to your device as you use the App. An internet connection is required the first time you use the App and periodically thereafter to access new or updated content. Previously viewed templates and lessons remain available offline.
+  <p><strong>4.2</strong> The App may request access to your device's photo library or storage to allow you to import photos for tracing and to save finished drawings. These files remain on your device and are not uploaded to our servers.</p>
 
-2.4 Some templates and lessons are available free of charge; others require an active subscription ("PRO" or "Premium" content) as described in Section 6.
+  <p><strong>4.3</strong> You may deny or revoke these permissions at any time through your device settings; doing so may limit or disable certain features of the App.</p>
 
+  <!-- ========================================= -->
+  <!-- 5. User Content                           -->
+  <!-- ========================================= -->
+  <h2>5. User Content</h2>
 
+  <p><strong>5.1</strong> "User Content" means any photo, image, or drawing you import, create, edit, or save using the App.</p>
 
- 3. Important Disclaimers
+  <p><strong>5.2</strong> You retain full ownership of your User Content. Because User Content is stored locally on your device and is never transmitted to or processed by our servers, we do not claim any license, right, or interest in it.</p>
 
-3.1 WE DO NOT GUARANTEE THAT THE SERVICE WILL BE UNINTERRUPTED, ERRORFREE, OR AVAILABLE AT ALL TIMES, OR THAT ANY TEMPLATE, LESSON, OR FEATURE WILL MEET YOUR EXPECTATIONS.
+  <p><strong>5.3</strong> You are solely responsible for ensuring you have the right to use any photo you import into the App for tracing or conversion into line art.</p>
 
-3.2 THE APP IS PROVIDED FOR CREATIVE, EDUCATIONAL, AND ENTERTAINMENT PURPOSES ONLY. IT IS NOT A SUBSTITUTE FOR FORMAL ART INSTRUCTION, AND WE MAKE NO REPRESENTATIONS ABOUT SKILL OUTCOMES FROM USING IT.
+  <!-- ========================================= -->
+  <!-- 6. Subscriptions and Payments             -->
+  <!-- ========================================= -->
+  <h2>6. Subscriptions and Payments</h2>
 
-3.3 Some template and lesson artwork in the App may be generated using artificial intelligence tools. While we take reasonable steps to review content before publishing it, we do not guarantee that all such content is free of errors, inconsistencies, or unintended similarities to existing works.
+  <p><strong>6.1</strong> Certain templates, lessons, and features are available only to users with an active paid subscription ("PRO"). Subscriptions may be offered on a weekly, monthly, yearly, or other periodic basis, and may include a free trial period.</p>
 
+  <p><strong>6.2</strong> All purchases, subscriptions, trials, and renewals are processed through the Google Play Store (Android) or the Apple App Store (iOS), as applicable. Payment is charged to the payment method associated with your Google Play or Apple ID account.</p>
 
+  <p><strong>6.3</strong> Subscriptions automatically renew at the end of each period unless canceled at least 24 hours before the renewal date. If you started a free trial, you will be automatically charged the applicable subscription fee at the end of the trial unless you cancel before it ends.</p>
 
- 4. Camera and Device Permissions
+  <p><strong>6.4</strong> You can manage, cancel, or view your subscription at any time through your Google Play or Apple account settings. Deleting the App from your device does not automatically cancel an active subscription.</p>
 
-4.1 The AR Tracing feature requires access to your device's camera to display a live camera feed with an overlaid image. Camera access is used solely to provide this feature in real time and is not recorded, transmitted, or stored by us unless you explicitly choose to save or export an image using the App's save feature.
+  <p><strong>6.5</strong> We do not directly process or store your payment information. All billing is handled exclusively by Google Play or Apple in accordance with their respective terms and refund policies.</p>
 
-4.2 The App may request access to your device's photo library or storage to allow you to import photos for tracing and to save finished drawings. These files remain on your device and are not uploaded to our servers.
+  <p><strong>6.6</strong> To the extent permitted by applicable law, purchases are non-refundable except as required by law or by Google Play / Apple refund policies. Refund requests should be directed to Google Play or Apple, as applicable.</p>
 
-4.3 You may deny or revoke these permissions at any time through your device settings; doing so may limit or disable certain features of the App.
+  <p><strong>6.7</strong> We reserve the right to change subscription pricing at any time, subject to applicable law and the policies of Google Play and Apple. Any price changes will be communicated in accordance with those platforms' requirements before taking effect.</p>
 
+  <p><strong>6.8</strong> If your subscription lapses, expires, or is refunded, access to PRO/premium content and features may be disabled or limited, while previously viewed free content remains accessible where technically possible.</p>
 
+  <!-- ========================================= -->
+  <!-- 7. Advertising                            -->
+  <!-- ========================================= -->
+  <h2>7. Advertising</h2>
 
- 5. User Content
+  <p><strong>7.1</strong> The App may display third-party advertising to support free access to the Service. Users with an active PRO subscription will not be shown advertisements.</p>
 
-5.1 "User Content" means any photo, image, or drawing you import, create, edit, or save using the App.
+  <p><strong>7.2</strong> Advertising may be provided through third-party ad networks (such as Google AdMob), which may collect certain technical and usage information in accordance with their own privacy policies, subject to your device settings and applicable law. Please refer to our Privacy Policy for more detail.</p>
 
-5.2 You retain full ownership of your User Content. Because User Content is stored locally on your device and is never transmitted to or processed by our servers, we do not claim any license, right, or interest in it.
+  <!-- ========================================= -->
+  <!-- 8. Intellectual Property                  -->
+  <!-- ========================================= -->
+  <h2>8. Intellectual Property</h2>
 
-5.3 You are solely responsible for ensuring you have the right to use any photo you import into the App for tracing or conversion into line art.
+  <p><strong>8.1</strong> All templates, lesson content, illustrations, app design, logos, and other materials provided within the App (excluding your own User Content) are the property of the Developer or its licensors and are protected by applicable intellectual property laws.</p>
 
+  <p><strong>8.2</strong> We grant you a limited, non-exclusive, non-transferable license to use the App and its content for your personal, non-commercial use — including tracing templates for your own artwork, which you may keep, share, or use as you wish once created.</p>
 
+  <p><strong>8.3</strong> You may not copy, redistribute, resell, or extract the App's template or lesson library for use outside the App, reverse-engineer the App, or use automated means to access or scrape its content.</p>
 
- 6. Subscriptions and Payments
+  <!-- ========================================= -->
+  <!-- 9. User Conduct                           -->
+  <!-- ========================================= -->
+  <h2>9. User Conduct</h2>
 
-6.1 Certain templates, lessons, and features are available only to users with an active paid subscription ("PRO"). Subscriptions may be offered on a weekly, monthly, yearly, or other periodic basis, and may include a free trial period.
+  <p>You agree not to:</p>
+  <ul>
+    <li>use the App for any unlawful purpose;</li>
+    <li>attempt to interfere with, disrupt, or gain unauthorized access to the App or the servers/content that support it;</li>
+    <li>upload or attempt to introduce any virus, malware, or harmful code through the App;</li>
+    <li>use the App to create, import, or trace content that is illegal, infringes on the rights of others, or violates applicable law.</li>
+  </ul>
+  <p>We reserve the right to restrict or terminate access to the Service for any user who violates these Terms.</p>
 
-6.2 All purchases, subscriptions, trials, and renewals are processed through the Google Play Store (Android) or the Apple App Store (iOS), as applicable. Payment is charged to the payment method associated with your Google Play or Apple ID account.
+  <!-- ========================================= -->
+  <!-- 10. Third-Party Services                  -->
+  <!-- ========================================= -->
+  <h2>10. Third-Party Services</h2>
 
-6.3 Subscriptions automatically renew at the end of each period unless canceled at least 24 hours before the renewal date. If you started a free trial, you will be automatically charged the applicable subscription fee at the end of the trial unless you cancel before it ends.
+  <p><strong>10.1</strong> The App relies on third-party infrastructure providers (including cloud hosting and content delivery services) to store and deliver the template and lesson library. These providers do not have access to your personal device storage, saved drawings, or imported photos.</p>
 
-6.4 You can manage, cancel, or view your subscription at any time through your Google Play or Apple account settings. Deleting the App from your device does not automatically cancel an active subscription.
+  <p><strong>10.2</strong> The App may contain links to external resources (such as a privacy policy page, support contact, or store listing). We are not responsible for the content or practices of any third-party resource linked from the App.</p>
 
-6.5 We do not directly process or store your payment information. All billing is handled exclusively by Google Play or Apple in accordance with their respective terms and refund policies.
+  <!-- ========================================= -->
+  <!-- 11. Disclaimer of Warranties              -->
+  <!-- ========================================= -->
+  <h2>11. Disclaimer of Warranties</h2>
 
-6.6 To the extent permitted by applicable law, purchases are nonrefundable except as required by law or by Google Play / Apple refund policies. Refund requests should be directed to Google Play or Apple, as applicable.
+  <p>THE APP AND ALL ITS CONTENT ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE APP WILL BE ERROR-FREE OR THAT ANY DEFECTS WILL BE CORRECTED.</p>
 
-6.7 We reserve the right to change subscription pricing at any time, subject to applicable law and the policies of Google Play and Apple. Any price changes will be communicated in accordance with those platforms' requirements before taking effect.
+  <!-- ========================================= -->
+  <!-- 12. Limitation of Liability               -->
+  <!-- ========================================= -->
+  <h2>12. Limitation of Liability</h2>
 
-6.8 If your subscription lapses, expires, or is refunded, access to PRO/premium content and features may be disabled or limited, while previously viewed free content remains accessible where technically possible.
+  <p><strong>12.1</strong> TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, OR SPECIAL DAMAGES ARISING FROM YOUR USE OF, OR INABILITY TO USE, THE APP.</p>
 
+  <p><strong>12.2</strong> OUR TOTAL LIABILITY FOR ANY CLAIM ARISING FROM THESE TERMS OR THE APP SHALL NOT EXCEED THE AMOUNT YOU PAID FOR ANY SUBSCRIPTION DURING THE THREE (3) MONTHS PRECEDING THE CLAIM.</p>
 
+  <p><strong>12.3</strong> Nothing in these Terms limits any rights you may have under applicable consumer protection law that cannot be excluded or limited.</p>
 
- 7. Advertising
+  <!-- ========================================= -->
+  <!-- 13. Termination                           -->
+  <!-- ========================================= -->
+  <h2>13. Termination</h2>
 
-7.1 The App may display thirdparty advertising to support free access to the Service. Users with an active PRO subscription will not be shown advertisements.
+  <p><strong>13.1</strong> You may stop using the App and delete it from your device at any time. Since no account is required, there is no "account" to formally close — uninstalling the App removes all locally stored data, including saved drawings.</p>
 
-7.2 Advertising may be provided through thirdparty ad networks (such as Google AdMob), which may collect certain technical and usage information in accordance with their own privacy policies, subject to your device settings and applicable law. Please refer to our Privacy Policy for more detail.
+  <p><strong>13.2</strong> We reserve the right to discontinue or modify the App, or any of its features, at any time, with or without notice.</p>
 
+  <p><strong>13.3</strong> Any active subscription must be canceled separately through Google Play or Apple, as uninstalling the App does not cancel a subscription (see Section 6.4).</p>
 
+  <!-- ========================================= -->
+  <!-- 14. Children's Use                        -->
+  <!-- ========================================= -->
+  <h2>14. Children's Use</h2>
 
- 8. Intellectual Property
+  <p>The App is not directed at children under the age of 13 (or the applicable minimum age in your jurisdiction) without the involvement of a parent or legal guardian. If you are a parent or guardian and believe a child has used the App inappropriately or has an active subscription without your consent, please contact us using the information in Section 16.</p>
 
-8.1 All templates, lesson content, illustrations, app design, logos, and other materials provided within the App (excluding your own User Content) are the property of the Developer or its licensors and are protected by applicable intellectual property laws.
+  <!-- ========================================= -->
+  <!-- 15. Governing Law                         -->
+  <!-- ========================================= -->
+  <h2>15. Governing Law</h2>
 
-8.2 We grant you a limited, nonexclusive, nontransferable license to use the App and its content for your personal, noncommercial use — including tracing templates for your own artwork, which you may keep, share, or use as you wish once created.
+  <p>These Terms shall be governed by the laws of [Your Country/Jurisdiction], without regard to its conflict of law principles, except where mandatory consumer protection laws of your country of residence provide otherwise.</p>
 
-8.3 You may not copy, redistribute, resell, or extract the App's template or lesson library for use outside the App, reverseengineer the App, or use automated means to access or scrape its content.
+  <!-- ========================================= -->
+  <!-- 16. Contact                               -->
+  <!-- ========================================= -->
+  <h2>16. Contact</h2>
 
+  <div class="contact-block">
+    <p>If you have questions about these Terms, please contact us at:</p>
+    <p><strong>[Your Support Email]</strong></p>
+  </div>
 
+  <!-- FINAL SIGNATURE -->
+  <div class="signature">
+    <p><em>By using [App Name], you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions of Use.</em></p>
+  </div>
 
- 9. User Conduct
-
-You agree not to:
-
- use the App for any unlawful purpose;
- attempt to interfere with, disrupt, or gain unauthorized access to the App or the servers/content that support it;
- upload or attempt to introduce any virus, malware, or harmful code through the App;
- use the App to create, import, or trace content that is illegal, infringes on the rights of others, or violates applicable law.
-
-We reserve the right to restrict or terminate access to the Service for any user who violates these Terms.
-
-
-
- 10. ThirdParty Services
-
-10.1 The App relies on thirdparty infrastructure providers (including cloud hosting and content delivery services) to store and deliver the template and lesson library. These providers do not have access to your personal device storage, saved drawings, or imported photos.
-
-10.2 The App may contain links to external resources (such as a privacy policy page, support contact, or store listing). We are not responsible for the content or practices of any thirdparty resource linked from the App.
-
-
-
- 11. Disclaimer of Warranties
-
-THE APP AND ALL ITS CONTENT ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NONINFRINGEMENT. WE DO NOT WARRANT THAT THE APP WILL BE ERRORFREE OR THAT ANY DEFECTS WILL BE CORRECTED.
-
-
-
- 12. Limitation of Liability
-
-12.1 TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, OR SPECIAL DAMAGES ARISING FROM YOUR USE OF, OR INABILITY TO USE, THE APP.
-
-12.2 OUR TOTAL LIABILITY FOR ANY CLAIM ARISING FROM THESE TERMS OR THE APP SHALL NOT EXCEED THE AMOUNT YOU PAID FOR ANY SUBSCRIPTION DURING THE THREE (3) MONTHS PRECEDING THE CLAIM.
-
-12.3 Nothing in these Terms limits any rights you may have under applicable consumer protection law that cannot be excluded or limited.
-
-
-
- 13. Termination
-
-13.1 You may stop using the App and delete it from your device at any time. Since no account is required, there is no "account" to formally close — uninstalling the App removes all locally stored data, including saved drawings.
-
-13.2 We reserve the right to discontinue or modify the App, or any of its features, at any time, with or without notice.
-
-13.3 Any active subscription must be canceled separately through Google Play or Apple, as uninstalling the App does not cancel a subscription (see Section 6.4).
-
-
-
- 14. Children's Use
-
-The App is not directed at children under the age of 7 (or the applicable minimum age in your jurisdiction) without the involvement of a parent or legal guardian. If you are a parent or guardian and believe a child has used the App inappropriately or has an active subscription without your consent, please contact us using the information in Section 16.
-
-
-
- 15. Governing Law
-
-These Terms shall be governed by the laws of [Your Country/Jurisdiction], without regard to its conflict of law principles, except where mandatory consumer protection laws of your country of residence provide otherwise.
-
-
-
- 16. Contact
-
-If you have questions about these Terms, please contact us at:
-
-[Your Support Email]
-
-
-
-By using [App Name], you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions of Use.
+</div>
+</body>
+</html>
