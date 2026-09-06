@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <title>Privacy Policy · Draw AR Sketch</title>
+  <style>
+    /* ── Reset & base ── */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #f9fafc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      color: #1b1f26;
+      padding: 2rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .legal-container {
+      max-width: 880px;
+      width: 100%;
+      background: #ffffff;
+      border-radius: 24px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.03);
+      padding: 2.5rem 2rem;
+    }
+
+    /* ── Typography ── */
+    h1, h2, h3 {
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      line-height: 1.3;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      color: #0b1119;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-top: 0;
+      margin-bottom: 0.2rem;
+      border-bottom: 2px solid #e7ecf3;
+      padding-bottom: 0.3rem;
+    }
+
+    .subhead {
+      font-size: 0.95rem;
+      color: #4a5a6e;
+      margin-top: 0.15rem;
+      margin-bottom: 2rem;
+      background: #f4f8fe;
+      padding: 0.55rem 1rem;
+      border-radius: 40px;
+      display: inline-block;
+      border: 1px solid #e1e9f2;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #e5ebf2;
+      padding-bottom: 0.35rem;
+      margin-top: 2.2rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-top: 1.6rem;
+      margin-bottom: 0.4rem;
+      color: #1f2a3a;
+    }
+
+    p {
+      margin: 0 0 1rem 0;
+    }
+
+    strong, b {
+      font-weight: 600;
+      color: #0b1c2e;
+    }
+
+    /* numbered paragraphs (e.g., 1.1, 2.2) */
+    .section-item {
+      margin-bottom: 0.75rem;
+      padding-left: 0.15rem;
+    }
+
+    .section-item strong {
+      display: inline-block;
+      min-width: 2.6rem;
+    }
+
+    /* bullet lists */
+    ul, ol {
+      margin: 0.5rem 0 1.2rem 1.8rem;
+      padding-left: 0.2rem;
+    }
+
+    li {
+      margin-bottom: 0.45rem;
+    }
+
+    /* small extra spacing for nested items */
+    .nested-list {
+      margin-top: 0.2rem;
+      margin-bottom: 0.8rem;
+    }
+
+    /* contact block */
+    .contact-block {
+      background: #f1f6fc;
+      padding: 1.2rem 1.6rem;
+      border-radius: 18px;
+      margin: 2rem 0 1rem 0;
+      border-left: 6px solid #6f8aa7;
+    }
+
+    .contact-block p {
+      margin: 0.2rem 0;
+    }
+
+    /* final signature */
+    .signature {
+      margin-top: 2rem;
+      font-style: italic;
+      color: #2b384c;
+      background: #f6faff;
+      padding: 1.2rem 1.6rem;
+      border-radius: 40px 12px 12px 40px;
+      border-left: 6px solid #7b8ba0;
+      background: #f4f9ff;
+    }
+
+    .signature p {
+      margin: 0;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 640px) {
+      body {
+        padding: 1rem 0.8rem;
+      }
+
+      .legal-container {
+        padding: 1.6rem 1.2rem;
+        border-radius: 18px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
+
+      .subhead {
+        font-size: 0.85rem;
+        padding: 0.4rem 0.9rem;
+      }
+
+      .contact-block {
+        padding: 1rem 1.2rem;
+      }
+
+      ul, ol {
+        margin-left: 1.2rem;
+      }
+
+      .signature {
+        padding: 1rem 1.2rem;
+        border-radius: 28px 10px 10px 28px;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .legal-container {
+        padding: 1.2rem 0.9rem;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      .section-item strong {
+        min-width: 2.2rem;
+      }
+    }
+
+    /* print */
+    @media print {
+      body {
+        background: #fff;
+        padding: 0.2in;
+      }
+      .legal-container {
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+      }
+      .subhead {
+        background: #f2f2f2;
+        border: 1px solid #ccc;
+      }
+      .contact-block {
+        background: #f3f6fa;
+        border-left-color: #5f7a97;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="legal-container">
+
+  <!-- TITLE -->
+  <h1>Privacy Policy</h1>
+  <div class="subhead"><strong>Last updated: [Insert Date]</strong></div>
+
+  <!-- INTRO -->
+  <p>This Privacy Policy explains how [App Name] (the "App," "we," "us," or "our") handles information when you use the App. We designed the App to store your personal creative content locally on your device rather than on our servers, and this policy explains exactly what that means in practice.</p>
+
+  <p>By using the App, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the App.</p>
+
+  <!-- ========================================= -->
+  <!-- 1. Information We Do Not Collect          -->
+  <!-- ========================================= -->
+  <h2>1. Information We Do Not Collect</h2>
+
+  <p><strong>1.1 No account required.</strong> The App does not require you to create an account, sign up, or log in. We do not collect your name, email address, or any account credentials.</p>
+
+  <p><strong>1.2 Your drawings and photos stay on your device.</strong> Any photo you import for tracing, any drawing you save or export, and any custom template you create remain stored locally on your device's storage. This content is never uploaded to, transmitted to, or processed by our servers.</p>
+
+  <p><strong>1.3 No cloud sync of personal content.</strong> Because there is no account system, we have no way to associate any saved drawing or imported photo with you personally, and we do not attempt to.</p>
+
+  <!-- ========================================= -->
+  <!-- 2. Information the App Accesses on Device -->
+  <!-- ========================================= -->
+  <h2>2. Information the App Accesses on Your Device</h2>
+
+  <p><strong>2.1 Camera.</strong> The App requests access to your device's camera to power the AR Tracing feature, which overlays a template image on the live camera feed. The camera feed is displayed in real time and is not recorded or transmitted unless you actively choose to save or export a captured image using the App's built-in save feature — in which case that resulting image is saved to your device's local storage, not to us.</p>
+
+  <p><strong>2.2 Photo library / device storage.</strong> The App requests access to your photo library or device storage to let you: (a) import an existing photo to convert into a traceable line-art template, and (b) save finished drawings and exported artwork. These files are read from and written to your device only.</p>
+
+  <p><strong>2.3 You control these permissions.</strong> You can grant, deny, or revoke camera and storage/photo permissions at any time through your device's operating system settings. Revoking a permission may disable the corresponding feature of the App.</p>
+
+  <!-- ========================================= -->
+  <!-- 3. Information We Do Collect              -->
+  <!-- ========================================= -->
+  <h2>3. Information We Do Collect</h2>
+
+  <p><strong>3.1 Template and lesson library content.</strong> The App downloads publicly available drawing templates, lesson images, and category metadata from our remote content servers as you browse the App. This is one-directional content delivery to your device; it does not involve sending us any personal information about you.</p>
+
+  <p><strong>3.2 Basic technical and usage data.</strong> Like most apps, we may collect limited technical information necessary for the App to function and improve over time, which may include:</p>
+  <ul>
+    <li>Device type and operating system version</li>
+    <li>App version</li>
+    <li>Crash reports and basic diagnostic logs</li>
+    <li>General, non-precise usage statistics (such as which template categories are viewed) used in aggregate to understand feature usage</li>
+  </ul>
+  <p>This data is not linked to your name, email, or any other directly identifying information, since no account exists to link it to.</p>
+
+  <p><strong>3.3 Purchase and subscription status.</strong> If you purchase a subscription, the purchase itself is processed entirely by the Google Play Store or Apple App Store (see Section 5). We may store a local record on your device confirming your subscription is active, so the App can unlock premium features — this record is not tied to a personal profile on our servers.</p>
+
+  <!-- ========================================= -->
+  <!-- 4. Advertising                            -->
+  <!-- ========================================= -->
+  <h2>4. Advertising</h2>
+
+  <p><strong>4.1</strong> If the App displays advertisements (shown only to users without an active PRO subscription), these ads are served through third-party advertising networks, such as Google AdMob.</p>
+
+  <p><strong>4.2</strong> Ad networks may collect certain technical identifiers (such as an advertising ID) and usage information to serve and measure ads, in accordance with their own privacy policies and subject to your device's privacy and tracking settings (such as Android's Ads Settings or Apple's App Tracking Transparency controls).</p>
+
+  <p><strong>4.3</strong> We do not control how third-party ad networks use the information they collect. We encourage you to review Google's Privacy Policy and any other ad network's policy directly for details, and to use your device settings to limit ad tracking if you prefer.</p>
+
+  <p><strong>4.4</strong> Subscribing to PRO removes advertisements from the App entirely.</p>
+
+  <!-- ========================================= -->
+  <!-- 5. Payments and Subscriptions             -->
+  <!-- ========================================= -->
+  <h2>5. Payments and Subscriptions</h2>
+
+  <p><strong>5.1</strong> All purchases and subscriptions are processed directly by the Google Play Store (Android) or the Apple App Store (iOS). We do not collect, see, or store your payment card details, billing address, or other financial information — this is handled entirely by Google or Apple under their own privacy and security policies.</p>
+
+  <p><strong>5.2</strong> We may receive a confirmation from Google Play or Apple that a purchase was completed and its status (active, expired, refunded), which the App uses locally on your device to determine access to premium features.</p>
+
+  <!-- ========================================= -->
+  <!-- 6. Third-Party Service Providers          -->
+  <!-- ========================================= -->
+  <h2>6. Third-Party Service Providers</h2>
+
+  <p><strong>6.1</strong> We use a backend content-hosting provider to store and deliver the App's template and lesson artwork library. This provider does not have access to your personal device storage, saved drawings, imported photos, or camera feed — it only serves the shared content library that is the same for all users.</p>
+
+  <p><strong>6.2</strong> These service providers act on our behalf and are contractually and technically limited to the purpose of delivering App content and functionality; they do not receive your personal creative content.</p>
+
+  <!-- ========================================= -->
+  <!-- 7. Data Retention                         -->
+  <!-- ========================================= -->
+  <h2>7. Data Retention</h2>
+
+  <p><strong>7.1</strong> Since your drawings, imported photos, and saved artwork exist only in your device's local storage, you control their retention entirely. Deleting an item within the App, or uninstalling the App itself, permanently removes this content from your device.</p>
+
+  <p><strong>7.2</strong> Aggregate, non-identifying technical/usage data (Section 3.2), where collected, is retained only as long as necessary for diagnostic and app-improvement purposes.</p>
+
+  <!-- ========================================= -->
+  <!-- 8. Children's Privacy                     -->
+  <!-- ========================================= -->
+  <h2>8. Children's Privacy</h2>
+
+  <p>The App is not directed at children under 13 (or the applicable minimum age under your local law) and we do not knowingly collect personal information from children. Because the App does not require an account and does not collect personal information tying activity to an individual, this risk is inherently limited. If you are a parent or guardian and have concerns about a child's use of the App, please contact us using the details in Section 11.</p>
+
+  <!-- ========================================= -->
+  <!-- 9. Your Rights                            -->
+  <!-- ========================================= -->
+  <h2>9. Your Rights</h2>
+
+  <p>Depending on your jurisdiction (for example, under the GDPR in the European Union/EEA, or the CCPA in California), you may have rights regarding personal data collected about you, including the right to access, correct, or delete such data, and the right to object to certain processing.</p>
+
+  <p>Because the App does not maintain user accounts or store personal creative content on our servers, most of these rights are inherently satisfied by your direct control over your own device — deleting content in the App or uninstalling it removes your data immediately. For any technical/usage data we may hold (Section 3.2), you may contact us using the details below to make a request, and we will respond in accordance with applicable law.</p>
+
+  <!-- ========================================= -->
+  <!-- 10. International Users                   -->
+  <!-- ========================================= -->
+  <h2>10. International Users</h2>
+
+  <p>The App may be used globally. Any technical/usage data collected as described in Section 3.2 may be processed by service providers located in countries other than your own. We take reasonable steps to ensure such processing complies with applicable data protection laws.</p>
+
+  <!-- ========================================= -->
+  <!-- 11. Changes to This Privacy Policy        -->
+  <!-- ========================================= -->
+  <h2>11. Changes to This Privacy Policy</h2>
+
+  <p>We may update this Privacy Policy from time to time to reflect changes in the App's functionality or legal requirements. The "Last updated" date at the top of this page will reflect the most recent revision. Continued use of the App after an update constitutes your acceptance of the revised policy.</p>
+
+  <!-- ========================================= -->
+  <!-- 12. Contact Us                            -->
+  <!-- ========================================= -->
+  <h2>12. Contact Us</h2>
+
+  <div class="contact-block">
+    <p>If you have questions or concerns about this Privacy Policy or how the App handles information, please contact us at:</p>
+    <p><strong>[Your Support Email]</strong></p>
+  </div>
+
+  <!-- FINAL ACKNOWLEDGMENT -->
+  <div class="signature">
+    <p><em>By using [App Name], you acknowledge that you have read and understood this Privacy Policy.</em></p>
+  </div>
+
+</div>
+</body>
+</html>
